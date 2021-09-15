@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "lib": ["es2019"],
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "rootDir": "./"
+  },
+  "include": [
+    "src/**/*.ts",
+    "test/**/*.ts"
+  ]
+}
